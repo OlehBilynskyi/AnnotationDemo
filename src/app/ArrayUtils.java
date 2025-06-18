@@ -1,7 +1,7 @@
 package app;
 
 public class ArrayUtils {
-//Вказуємо анотацію MethodInfo з даними про метод findMax
+    //Вказуємо анотацію MethodInfo з даними про метод findMax
     @MethodInfo(
             name = "findMax", //Назва методу
             returnType = "int", //Метод повертає int
@@ -25,7 +25,8 @@ public class ArrayUtils {
         }
         return max;
     }
-//Анотація з описом методу calculateAverage
+
+    //Анотація з описом методу calculateAverage
     @MethodInfo(
             name = "calculateAverage", //Назва методу
             returnType = "double", //Тип повернення - double

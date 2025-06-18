@@ -1,6 +1,8 @@
 package app;
 //Імпортуємо клас Method для роботи з методами через рефлексію
+
 import java.lang.reflect.Method;
+
 public class Main {
     public static void main(String[] args) {
         //Створюємо масив чисел
